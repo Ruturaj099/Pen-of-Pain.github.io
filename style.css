@@ -1,0 +1,119 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light grey fallback */
+    color: #333; /* Dark grey/black for good contrast on white */
+    line-height: 1.6;
+    background-color: #fff; /* Primary white background */
+}
+
+header {
+    background-color: #2979FF; /* A vibrant blue */
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    background-color: #E3F2FD; /* A very light blue for a subtle background */
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #1976D2; /* A darker blue for heading contrast */
+}
+
+.hero-content p {
+    font-size: 1.1em;
+    color: #555; /* Dark grey for readability on light blue */
+}
+
+.featured-stories h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #1976D2; /* Darker blue for section heading */
+}
+
+.story-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.story-card {
+    background-color: #fff;
+    border: 1px solid #E3F2FD; /* Very light blue border */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+
+.story-card a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 15px;
+}
+
+.story-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.story-card h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1.3em;
+    color: #2979FF; /* The vibrant blue for story titles */
+}
+
+.story-card .excerpt {
+    color: #777;
+    font-size: 0.95em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #1976D2; /* A darker blue for the footer */
+    color: #fff;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
